@@ -6,12 +6,12 @@ part of 's1.dart';
 // RiverpodGenerator
 // **************************************************************************
 
-String _$s1NotifierHash() => r'a325e5d8c638f6908c5bf87cb52197ad4fb40cb7';
+String _$s1NotifierHash() => r'9cc9ae3ef8d17ae6549516584ba7d10f55f22fc2';
 
 /// See also [S1Notifier].
 @ProviderFor(S1Notifier)
 final s1NotifierProvider =
-    AutoDisposeNotifierProvider<S1Notifier, String>.internal(
+    AutoDisposeNotifierProvider<S1Notifier, int>.internal(
   S1Notifier.new,
   name: r's1NotifierProvider',
   debugGetCreateSourceHash:
@@ -20,6 +20,6 @@ final s1NotifierProvider =
   allTransitiveDependencies: null,
 );
 
-typedef _$S1Notifier = AutoDisposeNotifier<String>;
+typedef _$S1Notifier = AutoDisposeNotifier<int>;
 // ignore_for_file: type=lint
 // ignore_for_file: subtype_of_sealed_class, invalid_use_of_internal_member
