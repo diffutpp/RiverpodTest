@@ -11,7 +11,7 @@ class S1Notifier extends _$S1Notifier {
   void updateState() {
     final oldState = state;
 
-    final newState = oldState + "i";
+    final newState = "${oldState}i";
 
     state = newState;
   }
