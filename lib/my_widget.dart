@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_application_1/lowerplace.dart';
 import 'package:flutter_application_1/s1.dart';
+import 'package:flutter_application_1/upperplace.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 class MyWidget extends ConsumerWidget {
@@ -18,6 +20,6 @@ class MyWidget extends ConsumerWidget {
 
     return Column(
         mainAxisAlignment: MainAxisAlignment.center,
-        children: [button, Text("$s1")]); //
+        children: [const LowerPlace(), const UpperPlace(), button]); //
   }
 }
